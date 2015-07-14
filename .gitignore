@@ -1,0 +1,11 @@
+*.[oa] 
+#This means the files with .o and .a would be ignored.
+*~
+#Some temp files would be ignored as well.
+#With / means the directory would be ignored.
+
+#Use the standard glob model:
+# * match any amount of chars,
+# [abc] match any char in the [], this means match one a, b or c.
+# ? match only one char
+# if - was used in the [], then the range chars or numbers were matched, like [0-9] matchs number 0 to number 9.
